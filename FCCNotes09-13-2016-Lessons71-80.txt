@@ -1,0 +1,143 @@
+# Free Code Camp Lessons 71-80
+# 09/13/2016
+
+
+# 71: Call out Optional Actions w/ Button info 
+
+-Bootstrap has several pre-defined colors for buttons, the btn-info class is used to call attention to optional actions the user can take 
+
+Code:
+<button class="btn btn-block btn-info">Info</button>
+
+# 72: Warn users of a dangerous action 
+
+-you can use the btn-danger class to notify users that the button performs something dangerous 
+
+
+Code: 
+  <button class="btn btn-block btn-danger">Delete</button>
+  
+# Use the Bootstrap Grid to put elements side by side 
+
+-Boostrap uses a grid system to make it easy to put elements into rows and specify the element width, usually w/ a div element 
+
+Examples:
+
+Note that in this illustration, the col-md-* class is being used. Here, md means medium, and * is a number specifying how many columns wide the element should be. In this case, the column width of an element on a medium-sized screen, such as a laptop, is being specified
+
+In the Cat Photo App that we're building, we'll use col-xs-*, where xs means extra small (like an extra-small mobile phone screen), and * is the number of columns specifying how many columns wide the element should be.
+
+CODE:
+
+  <div class="row">
+    <div class="col-xs-4">
+  <button class="btn btn-block btn-primary">Like</button>
+    </div>
+    <div class="col-xs-4">
+  <button class="btn btn-block btn-info">Info</button>
+    </div>
+    
+    <div class="col-xs-4">
+  <button class="btn btn-block btn-danger">Delete</button>
+    </div>
+	
+# 74: Remove Custom CSS and replace with Bootstrap 
+
+Instructions:
+
+remove the red-text class from your h2 element and replace it with the text-primary Bootstrap class.
+
+Finally, remove the "smaller-image" class from your first img element and replace it with the img-responsive class.
+
+Code: 
+
+<div class="container-fluid">
+  <h2 class="text-primary">CatPhotoApp</h2>
+
+
+
+  <a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+  
+  
+# Use spans for inline elements 
+
+-inline elements only take up a small portion of the page, block level buttons take up the entire page 
+
+  -By using the span element, you can put several elements together, and even style different parts of the same element differently.
+  
+  
+  Code: 
+  
+    <p>Things cats love: <span class="text-danger">love </span></p>
+  <ul>
+  
+  
+  
+# 76: Creating a custom heading 
+
+
+-basically using more of the responsive grid system in bootstrap to create a custom heading 
+
+
+Instructions:
+
+Nest your first image and your h2 element within a single <div class="row"> element. Nest your h2 element within a <div class="col-xs-8"> and your image in a <div class="col-xs-4"> so that they are on the same line.
+
+-the image should fit alongside the text 
+
+# 77: Add Icons to the buttons 
+
+-Font Awesome is convenient library of icons, these icons are vector graphics, stored in the .svg file format, but are treated just like fonts and you can specify their size using pixels etc... 
+
+-add font awesome by including the following at the top of the HTML code by using the <i> </i> element  like so: 
+
+#creates an 'info circle'
+<i class="fa fa-info-circle"></i>
+
+#Creates a 'thumbs up' icon in the like button:
+
+      <button class="btn btn-block btn-primary">
+        <i class="fa fa-thumbs-up">
+        
+        Like</button></i>
+      
+    </div>
+	
+# 78: Adding info and trash icons into their respective buttons 
+
+Code: 
+<button class="btn btn-block btn-info"> <i class="fa fa-info-circle"></i> Info </i> </button>
+    </div>
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-danger"><i class="fa fa-trash" > Delete </i> </button>
+	  
+# 80: Responsively Style Radio Buttons
+
+
+-we can use Bootstrap's col-xs-* on form elements as well 
+	
+-we're putting the col XS elements on the radio buttons via nesting after putting the radio buttons in a div class="row"> </div>	
+Code: 
+  <div class="row"
+         <label>
+    <div class="col-xs-6">
+    <input type="radio" name="indoor-outdoor">  Indoor </div></label>
+  <label>
+    <div class="col-xs-6">
+    <input type="radio" name="indoor-outdoor"> Outdoor</label> </div>
+</div>
+
+# 80: Responsively Style Checkboxes
+
+Code: 
+
+    <div class="row">
+      <div class="col-xs-4">
+    <label> <input type="checkbox" name="personality"> Loving</label></div>
+        <div class="col-xs-4">
+    <label><input type="checkbox" name="personality"> Lazy</label></div>
+          <div class="col-xs-4">
+            <label><input type="checkbox" name="personality"> Crazy</label></div>
+</div>
+
+

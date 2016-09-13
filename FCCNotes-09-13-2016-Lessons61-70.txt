@@ -1,0 +1,68 @@
+# Free Code Camp Lessons 61-70
+# 09/12/2016
+
+-the <style> element in CSS can be used with classes (noted with .DESCRIPTOR) to stylize/colorize specific elements
+
+CODE:
+
+<style>
+  .red-text {
+    color: #FF0000;
+  }
+...
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+-you can also shorten the hex codes (and limit the # of colors to 4,000) like so:
+
+<style>
+  .red-text {
+    color: #F00;
+  }
+  .fuchsia-text {
+    color: #F0F;
+  }
+...
+</style> 
+
+-you can also use RGB values:
+
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
+
+-Bootstrap is a responsive CSS f/w that figures out how wide your screen is and resizes the HTML elements based upon that to create responsive design.  
+
+-to add bootstrap to anny app, add the following to the top of your HTML: 
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+
+-to have images show up as the correct width we use the class="img-responsive" notation like so: 
+
+<a href="#"><img class="img-responsive" src="https://bit.ly/fcc-running-cats" alt="cats"></a>
+
+-We can have multiple classes function on an HTML element by putting the classes we want in ONE set of quotations and separated by a space:
+
+<h2 class="red-text text-center">your text</h2>
+
+
+-bootstrap also has some of its own styles for certain elements like buttons:
+
+ <button class="btn"> Like </button>
+ 
+ -we can also add the "button-block" class to the button element, so that the button will take up the whole page width like so:
+ 
+ <button class="btn btn-block">Submit</button>
+ 
+ -otherwise the button is only as wide as the text.  
+
+-the "btn-primary" class added to the button element will make the button element blue/specific in some way 
+
+  <button class="btn btn-block btn-primary">Like</button>
+  
+  
+
