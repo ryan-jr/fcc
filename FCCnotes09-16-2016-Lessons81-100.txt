@@ -1,6 +1,6 @@
 # FCC Notes 
 # 09/16/2016
-# Lessons 81 through
+# Lessons 81 through 100
 
 
 # Style Text Inputs as Form Controls
@@ -226,3 +226,11 @@ $(document).ready(function() {});
 # Target elements w/ selectors using jQuery.    
 </script>
 
+
+
+
+Summary:
+-learned how to apply the proper class in bootstrap 
+-Learned how to updated fonts, divs, and wells, and why IDs are useful/neccessary and how they can be integrated w/ jQuery.  
+-Learned commenting HTML code 
+-Learned how/why the script tag and the document.ready function is neccessary.  
