@@ -1,0 +1,187 @@
+# FCC Lessons 120 - 130
+
+## 10/13/2016
+
+***
+
+#### 120: Comment Your Javascript Code
+
+* Comments are the best way to leave notes, and clarify code meaning/functionality
+
+* To leave comments in JS we use //
+
+* Multiline comments are opened with /* and closed with */
+
+
+### Code:
+
+```Javascript
+
+// Hello World!
+
+/* 
+This is a Multi
+Line 
+Comment
+*/
+
+
+
+```
+
+***
+
+#### 121: Declare JavaScript Variables
+
+* In CS Data is anything that is meaningful to the computer.  JS provides 7 different data types
+
+* JS data types: undefined, null, boolean, string, symbol, number, and object.  
+
+* Variables are names that represent data and differ from mathematical variables in that they can store different values at different times.  
+
+* Variables allow computers to store/manipulate data by 'labeling' and pointing to the data rather than using the data itself which is why any of the 7 data types can be stored in a variable.  
+
+* To declare variables in JS we put var in front of it:    var myName;
+
+* The above creates the variable myName, and in JS we end statements with a semicolon ;
+
+* JS restrictions on naming are that they cannot contain spaces or start with a number.  
+
+***
+
+#### 122: Storing Values with the Assignment Operator
+
+* In JS assign variables values with = (the assignment operator).  e.g. myNumber = 5;
+assigns 5 to myNumber.  
+
+* myVar = myNumber; would assign the value of myNumber(5 in this case) to myVar.  
+
+* With JS if you've already declared something as a var, you don't need to re-declare it later on
+
+```Javascript
+
+// Setup
+var a;
+var b = 2;
+
+// Only change code below this line
+
+a = 7;
+b = 7;
+var b = a;			// the var here is   						// uncessary
+
+```
+
+***
+
+#### 123: Initializing Variables with the Assignment Operator
+
+
+* Initializing a value is simply setting a value to what it will hold first, it may hold something else later on, but for now it will INITIALLY hold whatever you first assign it.  
+
+
+***
+
+
+#### 124: Understanding uninitialized variables
+
+* When JS variables are declared, they are given a default value of 'undefined'.  
+
+* If you try and perform mathematical operations on 'undefined' you will get the NaN (Not a Number) error.  
+
+* If you try and perform a string operation/concatination you will get a string literal of 'undefined'.  
+
+
+```Javascript
+
+
+// Initialize these three variables
+var a = 5;
+var b = 10;
+var c = "I am a";
+
+// Do not change code below this line
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+
+```
+
+***
+
+
+#### 126: Understanding Case Sensitivity in Variables
+
+* Capitalization matters because MYVAR is not the same as MyVar or myvar.
+
+* Each of the above would be considered separate variables, and it is best practice to NOT name things in a fashion like above.  
+
+* JS uses camelCase which is where multi word variable names have the first word lowercase and the first letter of the following words capitalized.  e.g: camelCaseWords  
+
+* Examples include: var someVariable; var anotherName; 
+
+```Javascript
+
+
+// Declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+
+```
+
+
+***
+
+
+#### 127: Add Two Numbers with Javascript
+
+* Number is a data type in JS which represents numeric data.  
+
+```javascript
+
+sum = 10 + 10;
+
+```
+
+***
+
+#### 128: Subtract One Number from Another with JavaScript
+
+
+```javascript
+
+var difference = 45 - 33;
+
+```
+
+***
+
+#### 129: Multiply Two Numbers with JavaScript
+
+
+```javascript
+
+var product = 80 * 1;
+
+```
+
+***
+
+#### 130: Divide One Number by Another with JavaScript
+
+
+```javascript
+
+var quotient = 66 / 33;
+
+```
+
+***
