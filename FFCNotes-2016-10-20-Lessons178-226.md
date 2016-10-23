@@ -1832,21 +1832,17 @@ var andCount = testString.match(expression).length;
 ```Javascript
 
 
+// Setup
+var testString = "There are 3 cats but 4 dogs.";
 
-```
+// Only change code below this line.
 
-***
-***
+var expression = /\d+/g;  // Change this line
 
-#### 222: 
+// Only change code above this line
 
-* 
-
-
-### Code: 
-
-```Javascript
-
+// This code counts the matches of expression in testString
+var digitCount = testString.match(expression).length;
 
 
 ```
@@ -1854,15 +1850,56 @@ var andCount = testString.match(expression).length;
 ***
 ***
 
-#### 223: 
+#### 222:  Find Whitespace with Regular Expressions
 
-* 
+
+*  We can also use regular expression selectors like \s to find whitespace in a string.  The whitespace characters are " " (space), \r (the carriage return), \n (newline), \t (tab), and \f (the form feed).   The whitespace regular expression looks like this:  /\s+/g
 
 
 ### Code: 
 
 ```Javascript
 
+// Setup
+var testString = "How many spaces are there in this sentence?";
+
+// Only change code below this line.
+
+var expression = /\s+/g;  // Change this line
+// Only change code above this line
+
+// This code counts the matches of expression in testString
+var spaceCount = testString.match(expression).length;
+
+
+
+```
+
+***
+***
+
+#### 223:  Invert Regular Expression Matches with JavaScript
+
+
+*  You can invert any match by using the uppercase version of the regular expression selector.  For example, \s will match any whitespace, and \S will match anything that isn't whitespace.
+
+
+### Code: 
+
+```Javascript
+
+
+// Setup
+var testString = "How many non-space characters are there in this sentence?";
+
+// Only change code below this line.
+
+var expression = /\S/g;  // Change this line
+
+// Only change code above this line
+
+// This code counts the matches of expression in testString
+var nonSpaceCount = testString.match(expression).length;
 
 
 ```
