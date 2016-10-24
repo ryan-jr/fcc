@@ -338,14 +338,83 @@ singleVal = array.reduce(function(singleVal, currentVal) {
 ***
 ***
 
-#### 230: 
+#### 230:  Filter Arrays with filter
 
-* 
+
+*  The filter method is used to iterate through an array and filter out elements where a given condition is not true.
+
+
+```
+filter is passed a callback function which takes the current value (we've called that val) as an argument.
+
+Any array element for which the callback returns true will be kept and elements that return false will be filtered out.
+
+The following code is an example of using filter to remove array elements that are equal to five:
+
+Note: We omit the second and third arguments since we only need the value
+
+array = array.filter(function(val) {
+  return val !== 5;
+});
+```
 
 
 ### Code: 
 
 ```Javascript
+
+
+var oldArray = [1,2,3,4,5,6,7,8,9,10];
+
+// Only change code below this line.
+
+var newArray = oldArray.filter(function(val) {
+  return val <= 5;
+  
+});
+
+
+```
+
+***
+***
+
+#### 231:  Sort Arrays with sort
+
+
+*  You can use the method sort to easily sort the values in an array alphabetically or numerically.
+
+
+```
+Unlike the previous array methods we have been looking at, sort actually alters the array in place. However, it also returns this sorted array.
+
+sort can be passed a compare function as a callback. The compare function should return a negative number if a should be before b, a positive number if a should be after b, or 0 if they are equal.
+
+If no compare (callback) function is passed in, it will convert the values to strings and sort alphabetically.
+
+Here is an example of using sort with a compare function that will sort the elements from smallest to largest number:
+
+var array = [1, 12, 21, 2];
+array.sort(function(a, b) {
+  return a - b;
+});
+```
+
+
+### Code: 
+
+```Javascript
+
+
+var array = [1, 12, 21, 2];
+
+// Only change code below this line.
+
+array.sort(function( a,b ){
+  
+  return b - a;
+  
+});
 
 
 
@@ -354,14 +423,105 @@ singleVal = array.reduce(function(singleVal, currentVal) {
 ***
 ***
 
-#### 231: 
+#### 232:  Reverse Arrays with reverse
 
-* 
+
+*  You can use the reverse method to reverse the elements of an array.
+
+```
+reverse is another array method that alters the array in place, but it also returns the reversed array.
+
+var myArray = [1, 2, 3];
+myArray.reverse();
+returns [3, 2, 1]
+```
+
 
 
 ### Code: 
 
 ```Javascript
+
+
+
+var array = [1,2,3,4,5,6,7];
+var newArray = [];
+
+// Only change code below this line.
+
+newArray = array.reverse();
+
+
+```
+
+***
+***
+
+#### 233:  Concatenate Arrays with concat
+
+
+*  concat can be used to merge the contents of two arrays into one.
+
+```
+
+concat takes an array as an argument and returns a new array with the elements of this array concatenated onto the end.
+
+Here is an example of concat being used to concatenate otherArray onto the end of oldArray:
+
+newArray = oldArray.concat(otherArray);
+
+Use .concat() to concatenate concatMe onto the end of oldArray and assign it to newArray.
+
+```
+
+
+### Code: 
+
+```Javascript
+
+
+var oldArray = [1,2,3];
+var newArray = [];
+
+var concatMe = [4,5,6];
+
+// Only change code below this line.
+
+newArray = oldArray.concat(concatMe);
+
+
+```
+
+***
+***
+
+#### 234:  Split Strings with split
+
+
+*  You can use the split method to split a string into an array.
+
+
+```
+
+plit uses the argument you pass in as a delimiter to determine which points the string should be split at.
+
+Here is an example of split being used to split a string at every s character:
+
+var array = string.split('s');
+
+```
+
+### Code: 
+
+```Javascript
+
+
+var string = "Split me into an array";
+var array = [];
+
+// Only change code below this line.
+
+array = string.split(" ");
 
 
 
@@ -370,64 +530,35 @@ singleVal = array.reduce(function(singleVal, currentVal) {
 ***
 ***
 
-#### 232: 
-
-* 
+#### 235:  Join Strings with join
 
 
-### Code: 
-
-```Javascript
-
+*  We can use the join method to join each element of an array into a string separated by whatever delimiter you provide as an argument.
 
 
 ```
 
-***
-***
+he following is an example of using join to join all of the elements of an array into a string with all the elements separated by word and:
 
-#### 233: 
-
-* 
-
-
-### Code: 
-
-```Javascript
-
-
+var veggies = ["Celery", "Radish", "Carrot", "Potato"];
+var salad = veggies.join(" and ");
+console.log(salad); // "Celery and Radish and Carrot and Potato" 
+Use the join method to create a string from joinMe with spaces in between each element and assign it to joinedString.
 
 ```
 
-***
-***
-
-#### 234: 
-
-* 
-
-
 ### Code: 
 
 ```Javascript
 
 
 
-```
+var joinMe = ["Split","me","into","an","array"];
+var joinedString = '';
 
-***
-***
+// Only change code below this line.
 
-#### 235: 
-
-* 
-
-
-### Code: 
-
-```Javascript
-
-
+joinedString = joinMe.join(" ");
 
 ```
 
