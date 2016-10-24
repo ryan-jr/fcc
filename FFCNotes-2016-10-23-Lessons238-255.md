@@ -308,14 +308,24 @@ titleCase("HERE IS MY HANDLE HERE IS MY SPOUT");
 ***
 ***
 
-#### 251: 
+#### 251:  Falsy Bouncer
 
-* 
+*  Remove all falsy values from an array.  Falsy values in JavaScript are false, null, 0, "", undefined, and NaN.
 
+* The frustrating thing with this one is you can't use if/else statments to remove parts of the array because NaN will give you an error as per:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
 
 ### Code: 
 
 ```Javascript
+
+function bouncer(arr) {
+	
+  arr = arr.filter(Boolean)
+  
+  return arr;
+}
+
+bouncer([7, "ate", "", false, 9]);
 
 
 
