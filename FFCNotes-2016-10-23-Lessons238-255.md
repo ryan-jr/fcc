@@ -180,15 +180,45 @@ titleCase("HERE IS MY HANDLE HERE IS MY SPOUT");
 ***
 ***
 
-#### 243: 
+#### 243:  Find the largest number in arrays
 
-* 
+*   Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
+
 
 
 ### Code: 
 
 ```Javascript
+// We can't use sort because sort goes by strings
+// not numbers
 
+// function to find the largest number in an array
+
+function largestOfFour(arr) {
+	
+  // initializing variables 
+  var newArr = [];
+  x = 0;
+  
+  // looping through each array and calling Math.max and apply on it 
+  // Math.max finds the largest value 
+  // apply passes an argument and an array to Math.max and then assigns it to x 
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Funct/apply
+  // we finnally push x onto the newArr 
+  
+  for( var i = 0; i < arr.length; i++ ){
+  	
+  x = Math.max.apply(null, arr[i]);
+  newArr.push(x);
+  	
+  	
+  }
+  
+  
+  return newArr;
+}
+
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 
 
 ```
