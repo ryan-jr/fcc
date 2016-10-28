@@ -643,7 +643,7 @@ destroyer(["tree", "hamburger", 53], "tree", 53);
 // function to filter all non standard
 // values from an array (Nan, undefined,
 // etc..)
-
+      
 function bouncer( arr ){
 	
 	filteredArr = arr.filter( Boolean );
