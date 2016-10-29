@@ -20,3 +20,20 @@
 * Top Banner: Name, About, Writing, Coding Projects, Contact
 
 * Bottom Banner: Twitter linkage?, Comunities, Elsewhere( LinkedIn, GH, Email, YouTube)
+
+
+## 10/21/2016
+
+#### Resources used:
+
+* http://www.janeblundellart.com/watercolour-triads.html
+
+* http://www.codingbyte.com/how-to-create-a-fixed-header-and-footer-layout-in-html/
+
+* http://www.w3schools.com/tags/att_body_background.asp
+
+* http://www.w3schools.com/css/css_outline.asp
+
+* http://www.w3schools.com/css/css_image_transparency.asp
+
+* http://stackoverflow.com/questions/2570972/css-font-border
