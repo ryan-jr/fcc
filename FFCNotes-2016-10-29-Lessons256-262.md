@@ -94,15 +94,38 @@ $(".message").html("Here is the message");
 ***
 ***
 
-#### 258: 
+#### 258:  Get JSON with the jQuery getJSON Method
 
-* 
+
+*  You can also request data from an external source. This is where APIs come into play.  Remember that APIs - or Application Programming Interfaces - are tools that computers use to communicate with one another.  Most web APIs transfer data in a format called JSON. JSON stands for JavaScript Object Notation.  You've already been using JSON whenever you create a JavaScript object. JSON is nothing more than object properties and their current values, sandwiched between a { and a }.  These properties and their values are often referred to as "key-value pairs".  Let's get the JSON from Free Code Camp's Cat Photo API.  Once you've added this, click the "Get Message" button. Your Ajax function will replace the "The message will go here" text with the raw JSON output from the Free Code Camp Cat Photo API.
+
+```
+$.getJSON("/json/cats.json", function(json) {
+  $(".message").html(JSON.stringify(json));
+});
+```
 
 
 ### Code: 
 
-```Javascript
+```HTML
 
+
+<script>
+  $(document).ready(function() {
+
+    $("#getMessage").on("click", function(){
+      // Only change code below this line.
+      
+      $.getJSON("/json/cats.json", function(json) {
+  $(".message").html(JSON.stringify(json));
+});
+      
+      // Only change code above this line.
+    });   
+
+  });
+</script>
 
 
 ```
