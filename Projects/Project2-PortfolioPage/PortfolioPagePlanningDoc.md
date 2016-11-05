@@ -2,6 +2,14 @@
 
 # 10/11/2016 
 
+
+* Email, Linkedin, Twitter, Github
+
+53540 - Currently assigned to 
+53435 - Assigning to
+
+
+
 #### Features
 
 * Color Scheme

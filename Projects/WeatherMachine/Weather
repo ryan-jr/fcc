@@ -1,0 +1,105 @@
+
+function moreData() {
+
+// https://github.com/idavidmcdonald/minicourse-ajax-project/blob/master/js/script.js
+    
+		// setting the variables
+    var $body = $('body');
+    var $container = $('.form-container');
+    var city = $('#city').val();
+    var address = city;
+		var weather = $('#weather');
+		var $button = $('.gobtn');
+	  var $inputtext = $('#test');
+		var header = $('#locationdiv');
+
+    // clear out old data before new request
+				var boring = "FAR OUT";
+		
+		
+		$container.append(boring);
+		$('img').hide();
+  // wunderground
+  
+  
+	$.ajax({
+  url : "http://api.wunderground.com/api/6c7b0a2bab961193/forecast10day/q/" + city + ".json",
+  dataType : "jsonp",
+  success : function(parsed_json) {
+			
+		    var forecast = parsed_json['forecast']['txt_forecast']['forecastday'];
+
+    for (index in forecast) {
+					if ( index % 2 ==  0 && index <= 4) {
+    $container.append('Weather forecast for '+forecast[index]['title']+' is '+forecast[index]['fcttext_metric']);
+
+        } 
+		 }
+    } 
+		
+
+// note 11/05, 12:05 pm, got forecast text to work, now just need to get it so that it shows up below current conditions
+// http://amandapalmer.net/
+// http://codepen.io/brenjamin/full/LkyoZB/		
+		
+			
+  });  
+
+    return false;
+};
+
+function loadData() {
+
+// https://github.com/idavidmcdonald/minicourse-ajax-project/blob/master/js/script.js
+    
+		// setting the variables
+    var $body = $('body');
+    var $container = $('.form-container');
+    var city = $('#city').val();
+    var address = city;
+		var weather = $('#weather');
+		var $button = $('.gobtn');
+	  var $inputtext = $('#test');
+		var header = $('#locationdiv');
+
+    // clear out old data before new request
+		$container.text("");
+		$('img').hide();
+  // wunderground
+  
+    $.ajax({
+  url : "http://api.wunderground.com/api/6c7b0a2bab961193/geolookup/conditions/q/" + city + ".json",
+  dataType : "jsonp",
+  success : function(parsed_json) {
+		
+		
+  var location = parsed_json['location']['city'];
+	var temp_f = parsed_json['current_observation']['temp_f'];
+	var temp_c = parsed_json['current_observation']['temp_c'];
+	var curr_time = parsed_json['current_observation']['"local_time_rfc822"'];
+	var curr_time = parsed_json['current_observation']['local_time_rfc822'];
+	var curr_conditions = parsed_json['current_observation']['icon_url']
+	var curr_icon = parsed_json['current_observation']['icon'];
+		
+	var headline = '<h2>' + city + '</h2>';
+	var temper = '<p> Currently it is: ' + temp_f + ' degrees farenheit in ' + city + '</p>';
+	var curr_conditions_img = '<img src=' + curr_conditions + '>' + '</img>';
+		
+		
+	$container.append(headline);		
+	$( '<div class="col-xs-4">' + '<h3> Time  </h3>' + '<p>' + curr_time + '</p>' + '</div>').appendTo( $( ".form-container" ) );
+		$( '<div class="col-xs-4">' + '<h3> Temp  </h3>' + '<p>' + temp_f + '</p>' + '</div>').appendTo( $( ".form-container" ) );
+		$( '<div class="col-xs-4">' + '<h3> Current Conditons  </h3>' + '<p>' + curr_conditions_img + '</p>' + '</div>').appendTo( $( ".form-container" ) );
+	
+	$( '<div class="col-xs-12">' + '<h3> First Forecast  </h3>' + "HELLO WORLD"+ '</div>').appendTo( $( ".form-container" ) );
+	
+  }
+			
+  });
+
+    return false;
+};
+
+
+	$('#test').submit(loadData);
+	$('#test').submit(moreData);
