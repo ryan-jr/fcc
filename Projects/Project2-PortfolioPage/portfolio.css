@@ -1,3 +1,4 @@
+* {box-sizing:border-box; font-family: Raleway; }
 
 #fixedheader {
   background: black;
@@ -23,8 +24,7 @@ a:link {
   background-size: cover;
   line-height: 1.2;
   width: 103%;
-  height: 200px;
-  color: black;
+  height: 575px;
   text-align: center;
   alignment: auto;
   border-radius: 20px;
@@ -51,7 +51,7 @@ a:link {
 
   height: 350px;
   color: black;
-  background: lightgrey;
+  background: #ff8429;
   
 }
 
@@ -113,7 +113,7 @@ h2 {
   width: 100%;
   height: 120px;
   color: black;
-  background: white;
+  background: #2BB5B4;
   border-radius: 0px;
      
 }
@@ -122,12 +122,18 @@ h2 {
 #togethermarg {
   
   padding: 2px;
-  margin: 2px;
+  margin:  2px;
+  margin-right: -1px;
+  margin-left: -1px;
+  background: #2BB5B4;
   
 }
 
 #together {
-  
-  color: red;
+  font-weight: bold;
+  color: darkorange;
+  background: #2BB5B4;
+  margin-top: -10px;
+  margin-bottom: 5px;
   
 }
