@@ -11,7 +11,8 @@ a {
 }
 
 .form-container {
-	
+	background-color: white;
+	opacity: 10%;
 	
 	
 	
@@ -52,7 +53,7 @@ h2 {
 .bgimg {
   
     display: inline-block;   
-    opacity: 1;
+    opacity: 0;
   
 }
 
@@ -66,20 +67,39 @@ h1 {
   
   width: 75%;
   margin: auto;
+	
   
 }
 
 .form-container{
   
-    background-color: #FF814F;
+    background-color: #6DA398;
     text-align: center; 
     margin: 0 auto;
 		width: 50%;
 		height: 300px;
 		border-radius: 10px;
 		color: white;
+		
     
   }
+
+#candf_btn {
+	
+	margin: auto;
+  color: white;
+  width: 25px;
+  height: 25px;
+  moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 10px;
+  padding: 0px;
+	margin-top: -2px;
+	padding-top: 2px;
+	
+	
+}
+
 
 #gobtn {
 	
