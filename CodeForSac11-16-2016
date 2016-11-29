@@ -1,0 +1,46 @@
+# Code for Sacramento 11/16/2016
+
+
+## 7:11 Joel
+
+* Guest speaker VigilantWeb Gov Open Data
+
+* CfA Code of Conduct
+
+* CA Water data challenge.  waterchallenge.data.ca.gov
+
+## 7:17 Mike Phillips Vigilant Wb Inc.
+
+* Info services (BBG, REU, etc...).  Typically aquired info is through buying, but that is changing
+
+* Companies are leveraging newfound access to data e.g. data.gov from 47 data sets to 189k+ data sets
+
+* Open data growing across sectors at the state, local, international and NGO/private sector
+
+* Some companies doing interesting things: buildzoom (building permits/contractors), fiscalnote(bill movement, government strategy, bill analysis, etc...), CBInsights(Brings together private company data, pulls together a variety of data), Enigma(has big data analysis to figure trends, insurance etc...), Captricity(Takes handwritten data into machine readable forms), 
+
+* Open data can help unlock 3 to 5 TN$.  
+
+* A growing industry of 3rd party brokers is scouring the world's data ssets making it available
+
+* Challenges include data acquisition(formats, accessibility, etc...), Data Quality(Is it usable), data understanding/maningfulness (Is it valuable/useful)
+
+* Vigilant Searches and montors all the public records data sources all at once.  
+
+* Normally this type of data has been warehoused, and it works if there is a fineite/consisten set of data sources, but if there's a ton of data that's always coming online you need something that scales.  
+
+* With more data and stagnatnt/same tools there is overall less access, 
+
+* Vigilant is like lexisnexus etc.. but connects into the databases and sits on top of all of the other databases.  
+
+
+### Standups 7:47
+
+* Joann: 7:47 SacSoS: Healthy CA and integrating homelessness database
+
+* Maya/Ryan: 7:49 GIS aggregating data on rental costs etc...
+
+### Pitches 7:50
+
+* 7:51: Voting/fractional/popular voting pitch
+

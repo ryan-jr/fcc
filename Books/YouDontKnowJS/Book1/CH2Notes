@@ -1,0 +1,96 @@
+# You don't know JS Book 1 
+
+## CH 2
+
+* to find out 'what' an object is we use typeof
+
+* JS has 7 object types: string, undefined, number, boolean, null (object-AKA: weird bug), object, symbol
+
+* The `object` type refers to a compound value where you can set properties (named locations) that each hold their own values of any type. This is perhaps one of the most useful value types in all of JavaScript.
+
+```js
+var obj = {
+	a: "hello world",
+	b: 42,
+	c: true
+};
+
+obj.a;		// "hello world"
+obj.b;		// 42
+obj.c;		// true
+
+obj["a"];	// "hello world"
+obj["b"];	// 42
+obj["c"];	// true
+```
+
+* Properties can either be accessed with *dot notation* (i.e., `obj.a`) or *bracket notation* (i.e., `obj["a"]`). Dot notation is shorter and generally easier to read, and is thus preferred when possible.
+
+* bracket notation is useful for when you want to access something that is in another object/another layer down
+
+* Arrays have their own special properties since they are their own data strucutre (e.g. .length(), etc...).  
+
+* functions can also be their own unique things:
+
+```js
+function foo() {
+	return 42;
+}
+
+foo.bar = "hello world";
+
+typeof foo;		// "function"
+typeof foo();		// "number"
+typeof foo.bar;		// "string"
+```
+
+* Functions are a subtype of `objects` -- `typeof` returns `"function"`, which implies that a `function` is a main type -- and can thus have properties, but you typically will only use function object properties (like `foo.bar`) in limited cases.
+
+* The built in object types often have their own methods associated with them which can make manipulating them that much easier.  
+
+```js
+var a = "hello world";
+var b = 3.14159;
+
+a.length;			// 11
+a.toUpperCase();		// "HELLO WORLD"
+b.toFixed(4);			// "3.1416"
+```
+
+* For comparing values there are two main types of value comparison that you will need to make in your JS programs: *equality* and *inequality*. The result of any comparison is a strictly `boolean` value (`true` or `false`), regardless of what value types are compared.
+
+* It's important that we briefly discuss coercion here because implicit and explicit coercion can affect the 'truthiness' of the values you compare.  
+
+#### Coercion
+
+We talked briefly about coercion in Chapter 1, but let's revisit it here.
+
+Coercion comes in two forms in JavaScript: *explicit* and *implicit*. Explicit coercion is simply that you can see obviously from the code that a conversion from one type to another will occur, whereas implicit coercion is when the type conversion can happen as more of a non-obvious side effect of some other operation.
+
+You've probably heard sentiments like "coercion is evil" drawn from the fact that there are clearly places where coercion can produce some surprising results. Perhaps nothing evokes frustration from developers more than when the language surprises them.
+
+Coercion is not evil, nor does it have to be surprising. In fact, the majority of cases you can construct with type coercion are quite sensible and understandable, and can even be used to *improve* the readability of your code. But we won't go much further into that debate -- Chapter 4 of the *Types & Grammar* title of this series covers all sides.
+
+Here's an example of *explicit* coercion:
+
+```js
+var a = "42";
+
+var b = Number( a );
+
+a;				// "42"
+b;				// 42 -- the number!
+```
+
+And here's an example of *implicit* coercion:
+
+```js
+var a = "42";
+
+var b = a * 1;	// "42" implicitly coerced to 42 here
+
+a;				// "42"
+b;				// 42 -- the number!
+```
+
+
