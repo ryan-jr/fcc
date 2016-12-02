@@ -82,7 +82,7 @@ a;				// "42"
 b;				// 42 -- the number!
 ```
 
-And here's an example of *implicit* coercion:
+* And here's an example of *implicit* coercion:
 
 ```js
 var a = "42";
@@ -93,4 +93,26 @@ a;				// "42"
 b;				// 42 -- the number!
 ```
 
+* Values can be 'falsy' or 'truty' depending
+
+
+The specific list of "falsy" values in JavaScript is as follows:
+
+* `""` (empty string)
+* `0`, `-0`, `NaN` (invalid `number`)
+* `null`, `undefined`
+* `false`
+
+Any value that's not on this "falsy" list is "truthy." Here are some examples of those:
+
+* `"hello"`
+* `42`
+* `true`
+* `[ ]`, `[ 1, "2", 3 ]` (arrays)
+* `{ }`, `{ a: 42 }` (objects)
+* `function foo() { .. }` (functions)
+
+* The equality operators in JS are as follows: ==, ===, !=, !==.  
+
+* The main difference between == and === is that === checks for both equality in value, and in type (e.g. a number has to match a number, a string has to match a string.  So "2" && 2 would NOT be equal).  This type of equality is known as strict equality.  
 
