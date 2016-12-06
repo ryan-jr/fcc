@@ -1,0 +1,65 @@
+* {box-sizing:border-box; font-family: Raleway; }
+
+#fixedheader {
+  background: black;
+  text-align: center;
+  text-align: right;
+  width: 100%;
+  padding-bottom: 0px;
+  
+}
+
+body {
+  
+  background-color: #6441a5;
+  
+}
+
+.topfont {
+ 
+  color: black;
+  text-shadow: 1px 1px grey;
+  
+
+  
+  
+}
+
+.infobox {
+  
+  
+  background: white;
+  width: 50%;
+  color: black;
+  border-radius: 5px;
+
+  
+}
+
+#quotation {
+  
+  
+  width: 300px;
+  height: 100px;
+  background: white;
+  
+  
+  
+}
+
+
+#quotebtn {
+  
+  position: inline;
+  
+}
+
+#divider {
+  
+  color: black;
+  background: black;
+  border-color: black;
+  width: 10%;
+  
+  
+}

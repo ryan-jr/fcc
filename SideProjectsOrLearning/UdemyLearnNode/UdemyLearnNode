@@ -1,0 +1,116 @@
+# Udemy: Learn Node Notes
+
+## Module 2
+
+### Lecture 6: ECMAScript
+
+* Standard JS is based on, ECMA is the Standards Organzination.  
+
+* JS is a highly abstracted language away from machine code/processor language.  
+
+* Both JS and Node.JS are written in C++ which is just above assembly in terms of the herarchy:
+
+Scripting Language
+|
+|
+C/C++
+|
+|
+Assembly
+|
+|
+Machine Code
+
+* Node is uses V8 of JS.  V8 is a JS engine
+
+* A JS engine is a prog that convers JS code into something the proccessor can understand, and should use/follow the ECMA standard on how the language should work/what standards it should have.  
+
+* An analogy is to think of how a car engine converts gasoline into power for the car.  
+
+### Lecture 7: V8 Under the hood
+
+* V8 is Google's Open Source JS engine, written in C++ , and uses the ECMA-262 standard.  
+
+* V8 is a lot of code that is very performant that has been worked on for years.  
+
+
+
+### Lecture 8: Adding Features to JS
+
+*  V8 allows others to write their own C++ code to make available to JS, and you can make things that ARE available in C++ ALSO be available to JS.  E.G. Normally Vanilla JS doesn't have a print function, or load files, or read from a database, etc....
+
+* Node JS is a C++ program embedded in V8 that adds a ton of features to make it a suitable server technology
+
+### Lecture 9: Conceptual Aside - Servers and Clients
+
+* A server is a computer that performs services, and a client asks for those services.  
+
+* A client gives a request in a standard fromat, and a server gives a resposne in a standard format as well (Client/Server model of computing).
+
+* For web services this usually happens via a browser to a web server (usually via HTTP)
+
+*   Browser - Request --> Server ******* Browser <-- Response -- Server
+
+* Usually editing a web page is not part of the ECMAScript specification, but libraries like JQuery etc... make it possible.  
+
+* Node JS makes it possible so that you only have to know JS for both client and server work.  
+
+* Node JS's goal is to have an end to end langaugage for have 
+
+### Lecture 9: What does JS need to Manage a server?
+
+* Better ways to organize code
+
+* Ways to deal with files and db
+
+* the ability to communicate over the internet, and accept standard requests/responses 
+
+* A way to deal with work that takes time 
+
+### Lecture 10: The C++ Core
+
+*  The c++ core is a set of features built in C++ that 'hook into' the V8 JS engine
+
+* A useful way to think of things is not that Node JS is JS, but rather that Node JS accepts JS.  
+
+### Lecture 11: The JS Core
+
+* Many features in Node are writtin in pure JS to perform tasks. 
+
+* Many of these features are  'wrappers' that allow an easier way to interact with the C++ code that contains.  Esentially when you use these features they go out and grab the C++ code that will perform what you have asked Node to do.  
+
+### Lecture 12: Installing and running some JS in node
+
+* At this point you have to install/run node and ensure that it is accessible from the command line, and create a JS file that does console.log( "hello world" );  
+
+* Navigate using the command line to where you saved the JS file you just created and run the file with >node YOURFILENAMEHERE.js
+
+* I named my file Hello.js
+
+
+
+### Lecture 13:  Conceptual Aside - Modules
+
+* A module is a reusable block of code, whose existence does not impact other code.
+
+* Modules are a new feature in ES6 
+
+* Common Modules are agreed upon standards for how core modules should be structured 
+
+### Lecture 14:  Let's build a module
+
+* Create another JS file (In my case I named it greet.js ) in the same folder/directory that you created your first one when we installed/ran node(Lecture 12).  With this one we will create a file that does console.log( "greetings" );
+
+* Now in the original file that you created in lecture 12 ( Hello.js for me), be sure to open it up and edit it so that you put in: require( "./greet.js" );
+
+* The require line tells Node that it needs to pull in a file from somewhere else, and the ./ tells Node that the file is in the same directory, and the filename tells Node what file it is looking for.  
+
+
+
+
+
+
+
+
+
+
