@@ -106,11 +106,297 @@ Machine Code
 * The require line tells Node that it needs to pull in a file from somewhere else, and the ./ tells Node that the file is in the same directory, and the filename tells Node what file it is looking for.  
 
 
+## Module 4 - Modules, Exports, and Require
+
+### Lecture 15 Conceptual Aside Modules
+
+* A modlue is a resuable block of code whose existance d/n impact other code
+
+* Node uses Common JS modules which are an agreed upon standard for how code modules shoudl be structured
+
+### Lecture 16 JS Aside Class First Class and Function Expressions
+
+* First Class functions means: Everything you can do with other types, you can do with functions.  E.G. you can pass functions around, set variables equal to functions, put functions in arrays etc...
+
+* An espression is a block of code that results in a value, for example the string "hello" is an expression the int 3 is an expression
+
+* Think of functions in JS as objects/like any other type of thing, and you can pass functions around like so 
+
+```
+
+function greet ( ) {
+	
+	console.log( "hi" );
+}
+
+function greetLog ( fn ) {
+	
+	fn( );
+}
+
+greetLog( greet ); // hi \n hi b/c greet is called twice.  
+
+```
+
+* A function expression is just a function that results in a value being output
+
+```
+
+var greetMe = function ()  {
+	
+	console.log( "hello" )
+}
+
+greetMe(); // hello
+
+```
+
+
+* The above is an anon function since you didn't name it but, because it is tied to a variable you can still pass the function around 
+
+* You can also write the function you want to pass directly in the code like so
+
+```
+
+logGreeting( function () {
+	
+	console.log( "hello" )
+
+
+})
+
+// hello
+
+
+```
+
+### Lecture 17 : Building a module
+
+```
+creating 2 files app.js and greet.js in the same directory
+
+greet.js:
+console.log( "hello" )
+
+app.js:
+
+require( "./greet.js" )
+
+```
+
+* For the above to work we use require which calls another file the ./ indicates that the file is in the same directory and then the name of the file.  
+
+* if we were to make greet a function named greet in the greet.js file, we could call the greet function in greet.js but we could NOT call the greet function in app.js.  This is because we don't want overwriting variable names, function names, etc...
+
+* If we want to have access to the greet function in app js we use the export keyword.  In the greet.js file we would type  module.exports = greet;  which would expose the greet function to app.js 
+
+### Lecture 18: JS Aside: Objects/Object Literals
+
+* Name/value pairs: A name which maps to a value, but can only have one value in a given context e.g. var x = 10 will have 10, but x may later be remapped to be 20, or x might refer to other name/value pairs.  
+
+* An object literal is a name/value pair separated by commas and surrounded by curly braces: 
+
+``` 
+{ Street: "Mail",
+Number: 100,
+Apt: 
+	{ Floor: 3,
+  	  Number: 100
+
+	}
+
+}
+
+var person = {
+	
+	first: "jon",
+	last: "doe",
+	greet: function () {
+
+		console.log( this.first + " " this.last )
+
+	}
+
+
+}
+
+person.greet(); // jon doe
+console.log( person[ ' firstname' ] ); // jon
+
+```
 
 
 
+### Lecture 19: JS Aside: Prototype inheritance/constructors
+
+* Inher is when one object gets access to the properties/methods of another object.  JS implements inheretence differently via prototype inheritance.   
+
+* Function constructor: a function that is used to construct objects using the this variable that points to a new empty object, from which the empty object is returned automatically.  
+
+* When you create a prototype it is NOT a protype of ONLY the object that it is called on, but rather of any object that you create/call using that function like so:
+
+```
+
+app.js file
+
+function Person ( firstname, lastname ) {
+	
+	this.firstname = firstname;
+	this.lastname = lastname;
 
 
+}
+
+
+Person.prototype.greet = function () {
+	
+	console.log( "Hello " + this.firstname + " " + this.lastname );
+
+}
+var jon = new Person( "Jon", "Doe")
+var jane = new Person ( "Jane", "Doe")
+
+jon.greet() // "Hello Jon Doe"
+jane.greet() // "Hello Jane Doe"
+
+// in the above examples prototype is not being called on Person itself, but rather on each individual person object
+
+// A constructor is very much like a class in ruby without the init
+```
+
+### Lecture 20: By Refrence and by value
+
+* A primitive is a type of data that represents a single value ( a number or a string )
+
+* When you pass or assign a primitive you pass by value because a copy of that primitive is stored in the variable, but objects are passed by refrence.  
+
+
+```
+
+// pass by value 
+
+function change ( b ) {
+	
+	b = 2;
+
+}
+
+var a = 1;
+change( a );
+console.log( a ); // 1
+
+// the number is still 1 because we didn't return anything so a's value is still 1.  
+
+
+// pass by reference
+function changeObj ( d ) {
+	
+	d.prop1 = function()  {};
+	d.prop2 = {};
+
+
+}
+
+var c = {};
+c.prop1 = {};
+changeObj( c );	// prop1: [function], prop2: {}
+console.log( c );
+
+// c originally only had one blank object, but because the object was passed by refrence prop 1 was overitten at the same spot in memory and appended.  
+
+// This means you can add/modify properties of objects that will be reflected outside the function.  
+
+```
+
+### Lecture 21: Immediatley Invoked Function Expressions
+
+* an IIFE is a function that is created and used immediatley
+
+```
+
+// IIFE
+// we use these if we want a function and to be able to immediatley run the function.  
+// the most common way to use an IIFE is to wrap the function in parens
+// IIFEs are used when we require a module and just want something to run but not impact the code around it/if something is name differently, see the example below:
+// when we pass something to an IIFE we pass it immediatley when we call the function, which is write after we close the braces
+
+(function (  lastname ) {
+	
+
+	var fn = "jon";
+	console.log( fn ); // jon
+	console.log( lastname ) // Adams
+
+}( "Adams" ));  
+
+fn = "Jane";
+console.log( fn ); // jane
+
+// notice how the two are different because of scope.
+
+### Lecture 22: How do node modules work looking at Export and require
+
+```
+app.js
+var greet = require( "./greet" );
+greet();
+
+greet.js
+var greet = function() {
+	
+	console.log( "hello" );
+};
+
+module.exports = greet;
+
+```
+
+* Basically require passes a path, and module.exports is what is returned.  
+
+### Lecture 23: Aside: JSON
+
+* JSON is a standard  for structuring dat that is inspired by JS object literals, and JS engines are built to understand it
+
+```
+{
+	
+"Name": "Jon",
+"Age": "22"
+
+}
+
+### Lecture 24: More on Require
+
+* Require allows you to include multiple files/segment your file structure so for instance when we had the app.js and greet.js file we could construct multiple greetings for english and spanish
+
+* We would do this by doing a require in our app.js file for greet, and we would have a greet folder
+
+* Inside the greet folder we would have a file called index.js, we would create a var english and require ./english and ./spanish and then we would use module.exports as an object with { NAME: VARNAME}
+
+
+* in the greet folder we would also have an english.js and spanish.js  that are made avaialbe via module.exports
+
+* back up in app.js we would require ./greet which will then look in the greet folder and find index.js and you can use the methods of greet.spansh and greet.english
+
+* We could also create a greetings.json file and create a JS object with { "en": "hello", "es": "Hola "} and then in the english and spanish.js files we create a var greetings = require( "./greetings.json" ) and then in the function do a console.log( greetings.en OR greetings.es )
+
+### Lecture 25: Module Patterns
+
+app.js file we would do a module exports and set it equale to a function
+
+* There are multiple ways to structure/call files, some more common than others
+
+### Lecture 26:
+
+* just use module.exports
+
+### Lecture 27:
+
+* we can include libraries that are part of Node that extend JS with nice libraries/methods with things like var util = require("util")
+
+### Lecture 28:
+
+### Lecture 29:
 
 
 

@@ -1,52 +1,60 @@
-* {box-sizing:border-box; font-family: Raleway; }
+* { margin: 0; padding: 0 }
+
+body{ 
+  
+  font: 25px "Arial Black", Arial, Sans-Serif;
+
+}
+
+#disp {
+  
+  width: 82%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 25px;
+  
+}
+
+a:hover {
+  
+  color: black;
+  text-decoration: none;
+  outline: none;
+  
+}
+
+
+
+
+#calculator {
+  
+
+   background: url( https://raw.githubusercontent.com/ryan-jr/fcc/master/FrontEndDev/AdvancedFrontEndDevProjects/JSCalc/ImageAssets/CalcBody.PNG ) no-repeat; 
+  width: 266px;
+  height: 400px;
+  position: relative;
+  
+}
+
+#page-wrap { 
+  
+  width: 500px; 
+  margin 25px 
+  auto; 
+
+}
+
+.fixedheader { 
+
+  font: 12px "Raleway", Arial, Sans-Serif;
+
+}
 
 #fixedheader {
   background: black;
   text-align: center;
   text-align: right;
   width: 100%;
-  
-}
-
-body {
-  
-  background-color: grey;
-  
-}
-
-#quoteholder {
- 
-
-  
-  
-}
-
-.quotebox {
-  
-  
-  background: white;
-  width: 50%;
-  color: black;
-  border-radius: 5px;
-
-  
-}
-
-#quotation {
-  
-  
-  width: 300px;
-  height: 100px;
-  background: white;
-  
-  
-  
-}
-
-
-#quotebtn {
-  
-  position: inline;
   
 }
 
@@ -60,10 +68,129 @@ hr {
   
 }
 
-.calcbody {
+
+#display {
   
-  background-color: black;
-  width: 40%;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 197px;
+  text-align: right;
+  font: 30px "Arial Black", Arial, Sans-Serif; 
+  
+}
+
+.clrbtn {
+  
+  width: 44px; 
+  height: 40px;
+  padding: 3px 0 0 0;
+  background: url( https://raw.githubusercontent.com/ryan-jr/fcc/master/FrontEndDev/AdvancedFrontEndDevProjects/JSCalc/ImageAssets/FuncBtn.PNG ) no-repeat;
+  position: absolute;
+  display: block; 
+  border-radius: 20px;
+  left: 9px;
+  margin-top: 2px;
   
   
 }
+
+.fnc {
+  
+  
+  width: 44px;
+  height: 44px;
+  padding: 3px 0 0 0;
+  background: url( https://raw.githubusercontent.com/ryan-jr/fcc/master/FrontEndDev/AdvancedFrontEndDevProjects/JSCalc/ImageAssets/FuncBtn.PNG ) no-repeat;
+  
+  position: absolute;
+  right: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  
+  
+  
+  
+}
+
+.fnc :active, 
+.pendingFunction { background-position: bottom left; } 
+
+
+.num {
+  
+  width: 44px;
+  height: 44px;
+  padding: 3px 0 0 0;
+  background: url( https://raw.githubusercontent.com/ryan-jr/fcc/master/FrontEndDev/AdvancedFrontEndDevProjects/JSCalc/ImageAssets/NumBtn.PNG ) no-repeat;
+  position: relative;
+  right: 30px;
+  text-align: center;
+  border-radius: 100px;
+  margin-bottom: -5px;
+  
+  
+}
+
+#row1 {
+  
+  display: inline-block;
+  
+}
+
+
+
+#row2 {
+  
+  display: inline-block;
+  
+}
+
+#row3 {
+  
+  display: inline-block;
+  
+}
+
+#row4 {
+  
+  display: inline-block;
+  
+}
+
+
+
+#row5 {
+  
+  display: inline-block;
+  
+}
+
+.eqlbtn {
+  
+  
+   
+  width: 200px;
+  height: 44px;
+  padding: 0 0 0 0;
+  background: url( https://raw.githubusercontent.com/ryan-jr/fcc/master/FrontEndDev/AdvancedFrontEndDevProjects/JSCalc/ImageAssets/Equal.PNG ) no-repeat;
+  
+  
+ 
+  border-radius: 20px;
+  margin-right: 25px;
+  text-align: center;
+  
+  
+}
+
+.clrbtn {
+  
+  display: inline-block;
+  
+}
+
+
