@@ -31,7 +31,7 @@ data.each_with_index do | info, index |
   end
 
     if max_weight.to_i <= weight && max_temp.to_i >= temp
-      
+
       arr << ctr
 
     end
