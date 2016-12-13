@@ -6,8 +6,6 @@ def largest_digit( num )
   arr.map! { | num | num.to_i }
   puts arr.max
 
-
-
 end
 
 
