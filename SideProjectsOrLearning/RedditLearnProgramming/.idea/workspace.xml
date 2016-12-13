@@ -11,6 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/RedditLearnProgramming@DailyProgrammer_290_KaprekarNumbers.coverage" NAME="DailyProgrammer-290-KaprekarNumbers Coverage Results" MODIFIED="1481515694620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers" MODULE_NAME="RedditLearnProgramming" />
+    <SUITE FILE_PATH="coverage/RedditLearnProgramming@DailyProgrammer_287_KoekparsRoutine.coverage" NAME="DailyProgrammer-287-KoekparsRoutine Coverage Results" MODIFIED="1481560829345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-287-KoekparsRoutine" MODULE_NAME="RedditLearnProgramming" />
     <SUITE FILE_PATH="coverage/RedditLearnProgramming@DailyProgrammer_291_Goldilocks.coverage" NAME="DailyProgrammer-291-Goldilocks Coverage Results" MODIFIED="1481417153810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-291-Goldilocks" MODULE_NAME="RedditLearnProgramming" />
     <SUITE FILE_PATH="coverage/RedditLearnProgramming@DailyProgrammer_291_Goldilocks__1_.coverage" NAME="DailyProgrammer-291-Goldilocks (1) Coverage Results" MODIFIED="1481512039852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers" MODULE_NAME="RedditLearnProgramming" />
     <SUITE FILE_PATH="coverage/RedditLearnProgramming@DailyProgrammer_294_WordManagment.coverage" NAME="DailyProgrammer-294-WordManagment Coverage Results" MODIFIED="1481309819450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnProgramming-277-SimplifyingFractions" MODULE_NAME="RedditLearnProgramming" />
@@ -24,39 +25,29 @@
     <favorites_list name="RedditLearnProgramming" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DailyProgrammer-290-KaprekarNumbers.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-290-KaprekarNumbers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DailyProgrammer-277-SimplifyingFractions.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-277-SimplifyingFractions.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DailyProgrammer-294-WordManagment.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-294-WordManagment.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DailyProgrammer-287-KoekparsRoutine.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-287-KoekparsRoutine/DailyProgrammer-287-KoekparsRoutine.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DailyProgrammer-294-WordManagment.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-294-WordManagment.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -88,6 +79,7 @@
         <option value="$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-291-Goldilocks.rb" />
         <option value="$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/kpartest.rb" />
         <option value="$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-290-KaprekarNumbers.rb" />
+        <option value="$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-287-KoekparsRoutine/DailyProgrammer-287-KoekparsRoutine.rb" />
       </list>
     </option>
   </component>
@@ -104,10 +96,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -124,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,9 +143,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedditLearnProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedditLearnProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyProgrammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyProgrammer-287-KoekparsRoutine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,22 +182,7 @@
       <recent name="C:\Users\RJR\Documents\github\FCC\SideProjectsOrLearning\RedditLearnProgramming\DailyProgrammer\DailyProgrammer-291-Goldilocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.DailyProgrammer-290-KaprekarNumbers">
-    <configuration default="false" name="DailyProgrammer-294-WordManagment" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="RedditLearnProgramming" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/LearnProgramming-277-SimplifyingFractions" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/LearnProgramming-277-SimplifyingFractions/DailyProgrammer-294-WordManagment.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.DailyProgrammer-287-KoekparsRoutine">
     <configuration default="false" name="DailyProgrammer-291-Goldilocks" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="RedditLearnProgramming" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -246,6 +240,21 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/kpartest.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DailyProgrammer-287-KoekparsRoutine" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="RedditLearnProgramming" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/DailyProgrammer/DailyProgrammer-287-KoekparsRoutine" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/DailyProgrammer/DailyProgrammer-287-KoekparsRoutine/DailyProgrammer-287-KoekparsRoutine.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -370,19 +379,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-294-WordManagment" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-291-Goldilocks" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-291-Goldilocks (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-290-KaprekarNumbers" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.kpartest" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-291-Goldilocks" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-291-Goldilocks (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-290-KaprekarNumbers" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.kpartest" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-287-KoekparsRoutine" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-290-KaprekarNumbers" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-287-KoekparsRoutine" />
         <item index="1" class="java.lang.String" itemvalue="Ruby.kpartest" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-291-Goldilocks (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-291-Goldilocks" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-294-WordManagment" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-290-KaprekarNumbers" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-291-Goldilocks (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.DailyProgrammer-291-Goldilocks" />
       </list>
     </recent_temporary>
   </component>
@@ -398,22 +407,23 @@
       <updated>1481303863663</updated>
       <workItem from="1481303867199" duration="3540000" />
       <workItem from="1481411418848" duration="29646000" />
+      <workItem from="1481560205014" duration="2752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33186000" />
+    <option name="totallyTimeSpent" value="35938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27452415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0029368575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37878788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3778802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -438,57 +448,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearnProgramming-277-SimplifyingFractions/DailyProgrammer-294-WordManagment.rb" />
-    <entry file="file://$PROJECT_DIR$/LearnProgramming-277-SimplifyingFractions/DailyProgrammer-277-SimplifyingFractions" />
-    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-291-Goldilocks/input.txt">
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-290-KaprekarNumbers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/daily_programmer.rb">
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-277-SimplifyingFractions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-290-KoekparNumbers (2).rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-291-Goldilocks/DailyProgrammer-291-Goldilocks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer2-290-KoekparNumbers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-290-KoekparNumbers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-291-Goldilocks.rb">
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-294-WordManagment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -504,34 +480,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/kpartest.rb">
+    <entry file="file://$PROJECT_DIR$/LearnProgramming-277-SimplifyingFractions/DailyProgrammer-294-WordManagment.rb" />
+    <entry file="file://$PROJECT_DIR$/LearnProgramming-277-SimplifyingFractions/DailyProgrammer-277-SimplifyingFractions" />
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-291-Goldilocks/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="77" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="417">
+          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/daily_programmer.rb" />
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-290-KoekparNumbers (2).rb" />
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-291-Goldilocks/DailyProgrammer-291-Goldilocks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer2-290-KoekparNumbers.rb" />
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-290-KoekparNumbers.rb" />
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-291-Goldilocks.rb" />
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/kpartest.rb" />
     <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/DailyProgrammer-290-KaprekarNumbers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-277-SimplifyingFractions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-290-KoekparNumbers/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-294-WordManagment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DailyProgrammer/DailyProgrammer-287-KoekparsRoutine/DailyProgrammer-287-KoekparsRoutine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
           <folding />
         </state>
       </provider>
