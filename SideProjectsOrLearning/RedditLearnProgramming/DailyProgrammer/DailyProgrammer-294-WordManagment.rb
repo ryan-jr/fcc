@@ -17,7 +17,6 @@ def Scrabble( letters, word )
 
     if ltrs.index( char )
 
-
       # Find and delete at specific index in order to find other characters
       x = ltrs.find_index( char )
       ltrs.delete_at( x )
