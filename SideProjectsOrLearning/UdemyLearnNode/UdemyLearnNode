@@ -392,7 +392,8 @@ app.js file we would do a module exports and set it equale to a function
 
 ### Lecture 27:
 
-* we can include libraries that are part of Node that extend JS with nice libraries/methods with things like var util = require("util")
+* we can include libraries that are part of Node that extend JS with nice libraries/methods with things like var util = require("util
+")
 
 ### Lecture 28:
 
